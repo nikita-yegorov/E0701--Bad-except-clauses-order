@@ -18,5 +18,5 @@ This tests.py contains three examples of exception clauses both right and wrong
 
 3- run : python main.py
 
-# Repository of the main checker with further explaination
-https://github.com/noname19871/pyStaticAnalyzer.git
+# Repository of the static analyzer
+https://github.com/noname19871/pyStaticAnalyzer
