@@ -2,7 +2,7 @@
 This function is part of the pyStaticAnalyzer
 which is a python static code analyzer.
 
-This function checks pylint-messages E0701 - Bad except clauses order
+This function checks pylint-message E0701 - Bad except clauses order
 
 # About the code
 The main function is written in main.py
