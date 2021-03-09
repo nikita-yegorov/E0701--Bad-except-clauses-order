@@ -25,13 +25,14 @@ try:
     x = d['123']
 except KeyError as ke:
     print('KeyError')
-
+except Exception as e:
+    print("Exception")
 
 try:
     x = d['123']
 except Exception as e:
     print("Exception")
-except KeyError as e:
+except KeyError as ke:
     print("ZeroDivisionError")
 
 
@@ -51,13 +52,13 @@ try:
     linux_interaction()
 except Exception as e:
     pass
-except AssertionError as error:
+except AssertionError as ae:
     print('The linux_interaction() function was not executed')
 
 
 try:
     linux_interaction()
-except AssertionError as error:
+except AssertionError as ae:
     print('AssertionError')
     print('The linux_interaction() function was not executed')
 except Exception as e:
